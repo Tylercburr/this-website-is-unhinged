@@ -146,8 +146,7 @@ img {
 }
 
 .cred {
-    align-self: flex-end;
-    padding-right: 450px;
+    align-self: center;
     font-size: 25px;
 }
 

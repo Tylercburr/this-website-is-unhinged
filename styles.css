@@ -1,7 +1,9 @@
+html,
 body {
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
+    height: 100%;
 }
 
 ul {
@@ -19,10 +21,16 @@ li {
     padding: 10px;
 }
 
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .main {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    flex: 1;
 }
 
 /*header*/
@@ -30,6 +38,7 @@ li {
     display: flex;
     justify-content: space-around;
     background: #1F2937;
+    height: 60px;
 }
 
 .lefthead {
@@ -57,7 +66,9 @@ li {
 .section1 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background: #1F2937;
+    flex: 1;
 }
 
 .text1 {
@@ -92,6 +103,8 @@ li {
 .section2 {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    justify-content: center;
 }
 
 .title2 {
@@ -119,8 +132,10 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background: #E5E7EB;
     color: #1F2937;
+    flex: 1;
 }
 
 .quote {
@@ -137,6 +152,8 @@ li {
     display: flex;
     justify-content: space-around;
     color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .list4 {
@@ -173,10 +190,20 @@ li {
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #1F2937;
     color: #E5E7EB;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-top: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.image1 {
+    height: 300px;
+    width: 400px;
+    padding-top: 40px;
+}
+
+.image2 {
+    height: 200px;
+    width: 200px;
 }

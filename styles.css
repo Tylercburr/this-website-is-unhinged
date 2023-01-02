@@ -16,7 +16,7 @@ a {
 
 li {
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 .main {
@@ -24,19 +24,64 @@ li {
     flex-direction: column;
     height: 100vh;
 }
-
+/*header*/
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: #1F2937;
 }
 
 .lefthead {
     display: flex;
     justify-self: flex-start;
+    color: #F9FAF8;
 }
 
 .righthead {
     display: flex;
     justify-self: flex-end;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.headlinkright {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    background: #1F2937;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    
+}
+
+.title1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.subtext1 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1 {
+    background: #3882F6;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
 }
 

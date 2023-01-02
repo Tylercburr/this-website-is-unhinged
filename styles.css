@@ -118,6 +118,7 @@ img {
     display: flex;
     justify-content: center;
     padding: 24px;
+    flex-wrap: nowrap;
 }
 
 .text2 {
@@ -125,6 +126,7 @@ img {
     padding-top: 15px;
     padding-left: auto;
     padding-right: auto;
+    
 }
 
 /*section 3*/
@@ -144,7 +146,9 @@ img {
 }
 
 .cred {
-    padding-left: 175px;
+    align-self: flex-end;
+    padding-right: 450px;
+    font-size: 25px;
 }
 
 /*section 4*/
